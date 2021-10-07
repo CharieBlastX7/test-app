@@ -1,14 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        backgroundColor: "#000000",
+        fontFamily: "sans-serif",
+        fontSize: "16px",
+        fontWeight: "bold",
+      }}
+    >
+      {" "}
+      {/* Use className instead of class */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p style={{ color: "blue" }}>Hello world</p>
         <a
           className="App-link"
           href="https://reactjs.org"
